@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Calendar.css" rel="stylesheet" />
+    <script src="CKCalendar.js"></script>
+</head>
+<body>
+    <div id="calcontainer" class="calendar-box"></div>
+    <script>
+        var cal = new CKCalendar();
+        cal.container = "calcontainer";
+        //cal.year = 2020;
+        //cal.month = 3;
+        //cal.day = 12;
+        //cal.lang = "en";
+        cal.data = [5, 27, 12];
+        //cal.before = function () {
+        //    cal.day = 15;
+        //    console.log(cal.day);
+        //};
+        //cal.loaded = function () {
+        //    console.log("Render end");
+        //}
+        //cal.click = function () {
+        //    var obj = event.srcElement;
+        //    var year = CKCalendar.getAttr(obj, "data-year");
+        //    var month = CKCalendar.getAttr(obj, "data-month");
+        //    console.log(year);
+        //    console.log(month);
+        //    console.log(obj.innerHTML);
+        //};
+        cal.init();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿.calendar-box {font-size:12px; margin:4px; font-family:"微软雅黑"; font-weight:bold;}
+.calendar {border:0;background:#cccccc; }
+.calendar tr{background:#f7f7f7;}
+.calendar td{height:20px;padding:0px;}
+.calendar td span{font-weight:bold;font-size:14px;background: #eaeaea;color: black;line-height:40px;width:40px;height:40px;text-align:center;vertical-align:middle;cursor:pointer;margin: 2px; display:block;}
+.calendar td .date-sat { color: green;}
+.calendar td .date-sun {color: red;}
+.calendar td .date-today{ background:#498201; color:#ffffff; font-size:16px;}
+.calendar td .date-highlight{ background:#ff6600; color:#ffffff; font-size:16px;}
+.calendar td .date-highlight-on{background:#1dade9;color:#ffffff; font-size:16px;}
+.calendar .week { background:#f7f7f7; }
+.calendar .week td{text-align:center;font-weight:bold;border-top:0;height:30px;padding:0;color:#000000; }
+.calendar .week .week-sun {color:red;}
+.calendar .week .week-sat {color:green;}
