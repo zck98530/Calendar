@@ -154,8 +154,7 @@ class CKCalendar {
                     let vcss: string = "";
                     //日期标签自带年月数据
                     let spandate: string = '" data-year="' + this.year + '" data-month="' + this.month + '"';
-                    //$.each(hlist, function () { if (this == tmp) vcss = "date-highlight"; })
-
+                    
                     if (this.data) {
                         for (let i = 0; i < this.data.length; i++) {
                             if (this.data[i] == tmp) {
